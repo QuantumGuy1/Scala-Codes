@@ -49,7 +49,7 @@ println(rng)
 for (i <- rng2)
 println(rng2)
 
-// SET in Scala
+// SET Method in Scala
 
 val set = Set(1,1,2,3,4,4,55,6,6,7)
 
