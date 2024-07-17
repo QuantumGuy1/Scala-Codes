@@ -35,6 +35,15 @@ a(10)
 //AnyVal => Byte , Short , int , long , float , double , boolean , unit , char
 //AnyRef => String , List , Set , Map , Array , Option
 
+// placeholder syntax
+
+val rng = 1 to 100
+
+rng.map((x:Int) => x * 2)
+
+rng.reduce((x:Int , y:Int) => x + y)
+
+rng.reduce(_ + _)
 
 
 // only for reference types Null is defined
